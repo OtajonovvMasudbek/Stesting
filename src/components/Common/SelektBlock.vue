@@ -2,7 +2,7 @@
   <div class="relative w-64 mx-auto">
     <button
       @click="toggleDropdown"
-      class="w-full flex justify-between items-center border border-spacing-1 hover:border-blue-500 px-4 py-2 bg-white text-lg font-medium text-gray-700 focus:outline-none focus:ring-2"
+      class="w-full flex justify-between items-center lg:mb-0 mb-3 border border-spacing-1 hover:border-blue-500 px-4 py-2 bg-white text-lg font-medium text-gray-700 focus:outline-none focus:ring-2"
     >
       <span>{{ selectedOption }}</span>
       <i
