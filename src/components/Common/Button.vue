@@ -1,5 +1,6 @@
 <template>
-  <div class="lg:flex  flex-col  pb-5 pl-5 pt-6 gap-5">
+  
+  <div class="lg:flex pb-5 pl-5 pt-6 gap-5">
     <button
       @click="selectOption('Xalqaro', 1)"
       :class="getButtonClass('Xalqaro')"

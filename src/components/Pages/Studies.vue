@@ -6,7 +6,7 @@
       </h2>
       <div class="flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-0">
         <div class="w-full sm:w-auto">
-          <Button />
+          <Button/>
         </div>
         <div class="text-right w-full sm:w-auto pr-4 sm:pr-5">
           <Selekt @optionSelected="onOptionSelected" />
@@ -14,7 +14,7 @@
       </div>
     </div>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 mt-10">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 my-10">
       <Card
         v-for="item in studios.list"
         :key="item.id"

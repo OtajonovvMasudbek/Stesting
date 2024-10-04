@@ -1,7 +1,7 @@
 <template>
   <div
     @click="sendCardId"
-    class="shadow-lg max-h-[300px] hover:shadow-2xl cursor-pointer backdrop-blur-sm bg-white/30"
+    class="shadow-sm max-h-[300px] hover:shadow-lg cursor-pointer backdrop-blur-sm bg-white/30 transition-transform duration-300 ease-in-out transform hover:scale-105"
   >
     <div class="relative">
       <img class="pb-5 h-[150px] w-full" :src="data.image_url" alt="image" />
