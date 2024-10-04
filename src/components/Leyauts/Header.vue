@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex justify-between items-center top-0 bg-white z-10 fixed py-5 w-full mx-auto gap-5 px-4"
+    class="flex justify-center items-center max-w-[1100px] top-0 bg-white z-10 fixed py-5 w-full mx-auto gap-5 px-4"
   >
     <router-link to="/" aria-label="Homepage">
       <img
