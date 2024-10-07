@@ -5,7 +5,6 @@
     >
       <router-link to="/" aria-label="Homepage">
         <img
-          src="file:///C:/Users/hp/Desktop/Stesting/img/Stesting.svg"
           alt="Stesting"
           class="w-[150px] md:w-32 lg:w-auto max-w-full h-auto"
         />
