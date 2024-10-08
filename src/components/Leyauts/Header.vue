@@ -1,10 +1,11 @@
 <template>
-  <div class="w-full bg-white z-10 fixed top-0 lg:py-5 py-4"> 
+  <div class="w-full bg-white z-10 fixed top-0 lg:py-5 py-4">
     <div
       class="flex justify-between items-center item max-w-[1200px] mx-auto gap-5 px-4"
     >
       <router-link to="/" aria-label="Homepage">
         <img
+          src="/src/assets/img/svg/logo.svg"
           alt="Stesting"
           class="w-[150px] md:w-32 lg:w-auto max-w-full h-auto"
         />
@@ -13,7 +14,7 @@
       <div class="md:hidden" @click="toggleMenu">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="w-8 cursor-pointer "
+          class="w-8 cursor-pointer"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"

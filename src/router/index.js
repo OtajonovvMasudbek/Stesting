@@ -3,6 +3,8 @@ import Home from '@/components/Pages/index.vue'
 import News from '@/components/Pages/Studies.vue'
 import About from '@/components/Pages/About.vue'
 import Guide from '@/components/Pages/Guide.vue'
+import VideoLesson from '@/components/Pages/VideoLesson.vue'
+
 
 
 const router = createRouter({
@@ -17,6 +19,11 @@ const router = createRouter({
       path: '/news',
       name: 'news',
       component: News
+    },
+    {
+      path: '/tutorials',
+      name: 'tutorials',
+      component: VideoLesson
     },
     {
       path: '/guide',
