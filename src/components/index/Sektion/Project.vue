@@ -14,7 +14,7 @@
           class="hidden max-w-xs md:max-w-md lg:max-w-[100px] translate-x-20 pt-3 sm:hidden md:block"
         />
       </div>
-      <p class="max-w-[500px] mx-3 font-semibold pt-5  text-[18px] lg:mx-0">{{ item }}</p>
+      <p class="max-w-[500px] mx-3 font-medium pt-5  text-[18px] lg:mx-0">{{ item }}</p>
 
       <AlwaysButton class="py-10 lg:pl-0 pl-3 " buttonText="Batafsil" />
     </div>

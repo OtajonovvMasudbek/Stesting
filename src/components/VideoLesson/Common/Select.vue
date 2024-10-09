@@ -1,5 +1,5 @@
 <template>
-  <div class="relative w-64 mx-auto">
+  <div class="relative w-full lg:w-64 mx-auto">
     <button
       @click="toggleDropdown"
       class="w-full flex justify-between items-center lg:mb-0 mb-3 border border-spacing-1 hover:border-blue-500 px-4 py-2 bg-white text-lg font-medium text-gray-700 focus:outline-none focus:ring-2"
@@ -19,9 +19,7 @@
         v-show="isOpen"
         class="absolute mt-2 w-full bg-white rounded-lg shadow-lg z-10"
       >
-      <pre>
-        {{ options.results }}
-      </pre>
+      
         <a
           v-for="option in options"
           :key="option.id"

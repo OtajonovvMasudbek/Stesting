@@ -42,7 +42,7 @@
             v-for="studio in studios"
             :key="studio.id"
             :to="`/${studio.slug}`"
-            class="font-semibold hover:text-slate-700 text-center py-2"
+            class="font-semibold hover:text-slate-700 focus:text-sky-800 text-center py-2"
           >
             {{ studio.title }}
           </router-link>
@@ -57,7 +57,7 @@
           v-for="studio in studios"
           :key="studio.id"
           :to="`/${studio.slug}`"
-          class="font-semibold hover:text-slate-700"
+          class="font-semibold hover:text-slate-700 focus:text-sky-500 "
         >
           {{ studio.title }}
         </router-link>

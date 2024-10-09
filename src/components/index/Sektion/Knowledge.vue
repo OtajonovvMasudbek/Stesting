@@ -19,7 +19,7 @@
             </h2>
             <div v-html="description" class="description"></div>
             <router-link to="/tutorials">
-              <button class="mt-5 sm:mt-10 py-2 my-10 sm:py-3 px-8 sm:px-10 text-white font-bold bg-[#3bbecabc] hover:bg-[#5a7c80a7]">
+              <button class="mt-5 sm:mt-10 py-2 my-10 sm:py-3 px-8 sm:px-10 text-white font-bold bg-[#3b9fcabc] hover:bg-[#5a7c80a7]">
                 Video yoriq noma 
               </button>
             </router-link>
