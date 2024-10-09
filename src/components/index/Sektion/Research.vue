@@ -20,7 +20,6 @@
       </div>
     </div>
 
-    <!-- Card Grid Section -->
     <div
       class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-10 py-10 md:py-20 mx-auto max-w-full px-5"
     >
